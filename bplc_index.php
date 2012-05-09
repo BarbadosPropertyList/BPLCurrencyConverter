@@ -154,7 +154,7 @@ function bplc_calculator_view( $amount = '100', $from = 'USD', $to='BBD', $time 
 			if(!empty($time)) {
 			?>
 			<p style="margin-top: 20px;"><span class="bplc_credits_holder">
-				<?php _e('Rates from:', 'bplc_plugin'); echo ' '.date('h:i jS F, Y',$update_time); ?><br/><a href="http://www.barbadospropertylist.com/"><small>Built by </small><img alt="Barbados Property List" align="middle" src="<?php echo plugins_url( 'bplc_logo.png' , __FILE__ ) ?>" style="vertical-align: text-bottom;" /></a>
+				<?php _e('Rates from:', 'bplc_plugin'); echo ' '.date('h:i jS F, Y',$update_time); ?><br/><a href="http://www.barbadospropertylist.com/">Built by <img alt="Barbados Property List" align="middle" src="<?php echo plugins_url( 'bplc_logo.png' , __FILE__ ) ?>" style="vertical-align: text-bottom;" /></a>
 			</span></p>
 			<?php
 			}
