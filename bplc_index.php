@@ -194,6 +194,7 @@ function bplc_select_options($data, $correct) {
 
 //handle all the AJAX counting
 add_action( 'wp_ajax_bplc_count_ajax', 'bplc_count_ajax' );
+add_action('wp_ajax_nopriv_bplc_count_ajax', 'bplc_count_ajax');
 function bplc_count_ajax() {
 
 	$currencies = get_option( 'bplc_currencies' );
