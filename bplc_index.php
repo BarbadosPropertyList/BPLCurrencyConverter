@@ -72,8 +72,6 @@ function bplc_update_currencies() {
 //Loads Javascript for users so AJAX magic can happen
 add_action( 'template_redirect', 'bplc_add_js' );
 function bplc_add_js() {
-    wp_deregister_script( 'jquery' );
-    wp_register_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js');
     wp_enqueue_script( 'jquery' );
 
 	wp_enqueue_script( 'bplc_add_js', plugins_url( 'bplc_converter.js' , __FILE__ ), array('jquery') );
