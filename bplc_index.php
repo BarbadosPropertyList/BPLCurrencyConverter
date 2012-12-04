@@ -27,7 +27,7 @@ function bplc_update_currencies() {
 	$filename = 'latest.json';
 
 	// Open CURL session:
-	$ch = curl_init('http://openexchangerates.org/' . $filename);
+	$ch = curl_init('http://openexchangerates.org/' . $filename . '?app_id=16df4175a3e74179b3f1fe0c8f7e5cc9');
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
 	// Get the data:
