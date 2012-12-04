@@ -3,7 +3,7 @@
 Plugin Name: BPL Currency Converter
 Plugin URI:
 Description: BPL Currency Converter
-Version: 0.1
+Version: 0.11
 Author: BarbadosPropertyList
 Author URI:
 */
